@@ -1,1 +1,19 @@
+server: 
+  port: ${PORT:8861]
+  message: Configuracion de cliente en el servidor
+  spring:
+   datasource:
+     driver_ class-name: com.mysql.cj.jdbc.Driver
+     paswoord: 12345678
+      url: jdbc:mysql:locaTmezonelhost:3306/crudcloud?serverTimezone=UTC
+      username: root
+    jpa:
+     hibernate:
+     ddl-autor: update
+     database-plataform: org.hibernate.dialect.MySQLDialect
+  cloud:
+     config:
+       url: http://localhost:8860
+   
 
+  
