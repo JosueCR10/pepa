@@ -1,1 +1,3 @@
-
+server:
+  port:${PORT: 8862}
+message: configuracion de cajero en el servidor
