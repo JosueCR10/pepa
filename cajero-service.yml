@@ -1,1 +1,3 @@
-
+server:
+   port: ${PORT:8862]
+message: configuracion de caheri en el servidor levantado!
